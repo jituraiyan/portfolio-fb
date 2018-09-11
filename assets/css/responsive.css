@@ -1,0 +1,241 @@
+/* CSS */
+
+
+@media only screen and (max-width: 1199px) {
+html{
+	font-size: 60%;
+}
+.banner-area {
+	height: 70rem;
+}
+.sub-menu {
+	right: -19rem;
+}
+.banner-with-text {
+	height: 58rem;
+}
+.fevor-inner-small {
+	width: 70%;
+}
+}
+
+
+@media only screen and (max-width: 991px) {
+html{
+	font-size: 58%;
+}
+.sub-menu {
+	width: 78rem;
+	padding: 4rem 3.2rem 5rem;
+	right: -24rem;
+}
+.menu-image {
+	height: 34rem;
+	width: 34rem;
+}
+.banner-area {
+	height: 58rem;
+}
+.home-area {
+	padding: 7rem 0 3rem;
+}
+.home-area h1 {
+	width: 100%;
+}
+.home-area .full-width {
+	margin: 6rem 0;
+}
+.home-bottom img {
+	margin: 7rem 0 0;
+}
+.home-bottom p {
+	width: 85%;
+}
+footer {
+	padding: 4rem 0;
+}
+header + * {
+	padding-top: 15rem;
+}
+.single-section {
+	padding: 4rem 0 1rem;
+}
+.container-inner {
+	width: 90%;
+}
+.secondery-area {
+	padding: 6.5rem 0 1rem;
+}
+.fevor-area {
+	padding: 20rem 0 8rem;
+}
+.fevor-inner, .fevor-inner-small {
+	width: 90%;
+}
+.fevor-inner {
+	padding: 6rem 0 4rem;
+}
+.fevor-inner > h1 {
+	margin: 0 auto 1.5rem;
+}
+.single-video h4 {
+	margin: 2rem 0 0;
+}
+.single-video:not(:last-child) {
+	padding: 0 0 2rem;
+	margin: 0 0 3rem;
+}
+.fevor-inner img{
+	max-width: 350px;
+	margin: 0 auto;
+	display: block;
+}
+.fevor-inner .row p {
+	text-align: center;
+	margin: 1rem 0 3rem;
+}
+}
+
+
+@media only screen and (max-width: 767px) {
+html{
+	font-size: 56%
+}
+h1 {
+	font-size: 4.5rem;
+}
+h3 {
+	font-size: 2.5rem;
+}
+.full-width {
+	flex-wrap: wrap;
+}
+.half-width:first-child {
+	margin-right: 0;
+}
+.sub-menu {
+	width: 40rem;
+	right: -23rem;
+}
+.menu-image {
+	height: 20rem;
+}
+.menu-image:nth-child(1) {
+	margin: 0 0 2.5rem;
+}
+.home-bottom p {
+	width: 100%;
+}
+.home-area .full-width {
+	margin: 4rem 0;
+}
+.home-bottom img {
+	margin: 5rem 0 0;
+}
+footer {
+	padding: 3rem 0;
+}
+.fevor-inner > p {
+	width: 100%;
+}
+}
+
+
+@media only screen and (max-width: 575px) {
+h1 {
+	font-size: 4rem;
+	line-height: 1em;
+}
+h4 {
+	font-size: 2rem;
+}
+.align-left {
+	margin: 0 !important;
+	max-width: 100%;
+}
+header{
+	padding: 0;
+	background: #fff;
+}
+.logo {
+	margin-bottom: 1.2rem;
+}
+nav{
+	display: none;
+	width: 100%;
+}
+nav ul li {
+	float: none;
+}
+nav ul li a {
+	margin-left: 0; 
+}
+nav ul li ul, .sub-menu {
+	position: relative;
+	top: 0;
+	padding: 0 2.5rem;
+	width: 100%;
+	box-shadow: none;
+}
+.sub-menu {
+	width: 100%;
+	padding: 0;
+	right: 0;
+}
+.menu-image {
+	height: 15rem;
+	width: 100%;
+}
+.menu-image h3{
+	font-size: 2rem;
+}
+.menu-togler{
+	position: absolute;
+	top: 1.2rem;
+	right: 3rem;
+	cursor: pointer;
+}
+header + * {
+	padding-top: 11rem;
+}
+.banner-area {
+	height: 40rem;
+}
+.home-area {
+	padding: 5rem 0 1rem;
+}
+.home-area .full-width {
+	margin: 3rem 0;
+}
+.home-bottom img {
+	margin: 3rem 0 0;
+}
+.single-section {
+	padding: 3rem 0 0rem;
+}
+.single-section h3 {
+	margin: 0 0 2rem;
+}
+.single-info {
+	margin: 0 0 2.5rem;
+}
+.secondery-area {
+	padding: 4.5rem 0 1rem;
+}
+.fevor-inner {
+	padding: 3rem 0;
+}
+.single-video h4 {
+	margin: 1rem 0 0;
+}
+.single-video:not(:last-child) {
+	padding: 0 0 1rem;
+	margin: 0 0 2rem;
+}
+.fevor-area {
+	padding: 11rem 0 5rem;
+}
+.fevor-inner img {
+	width: 100%;
+}
+}

@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Radnika';
+  src: url('../fonts/Radnika-Regular.eot') format('eot'),
+  	   url('../fonts/Radnika-Regular.woff') format('woff'),
+  	   url('../fonts/Radnika-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeueEinstellung';
+  src: url('../fonts/NeueEinstellung-Regular.eot') format('eot'),
+  	   url('../fonts/NeueEinstellung-Regular.woff') format('woff'),
+  	   url('../fonts/NeueEinstellung-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeueEinstellung';
+  src: url('../fonts/NeueEinstellung-Bold.eot') format('eot'),
+  	   url('../fonts/NeueEinstellung-Bold.woff') format('woff'),
+  	   url('../fonts/NeueEinstellung-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}

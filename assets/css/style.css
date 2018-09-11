@@ -1,0 +1,348 @@
+@import url(font.css);
+html{
+	font-size: 62.5%;
+}
+body{
+	font-family: 'Radnika';
+	font-weight: 400;
+	color: #545454;
+	font-size: 16px;
+	overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: NeueEinstellung;
+	font-weight: 700;
+	color: #000;
+}
+h1{
+	font-size: 5.5rem;
+}
+h2{
+	font-size: 4rem;
+}
+h3{
+	font-size: 3rem;
+}
+h4{
+	font-size: 2.5rem;
+}
+h5{
+	font-size: 1.8rem;
+}
+h6{
+	font-size: 14px;
+}
+img{
+	max-width: 100%;
+}
+ul{
+	list-style: none;
+	padding: 0;
+}
+a:hover{
+	color: #545454;
+	text-decoration: none;
+}
+p a{
+	color: #545454;
+}
+
+.full-width{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.half-width:first-child{
+	margin-right: 3rem;
+}
+.container-inner{
+	width: 62%;
+    margin: 0 auto;
+}
+.align-left{
+	margin: 2rem !important;
+	margin-left: 0 !important;
+	max-width: 50%;
+}
+
+header{
+	padding: 3rem 0;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	transition: all 0.3s ease-in-out;
+}
+header.small-header{
+	padding: 0;
+	background: #fff;
+	box-shadow: -0.2rem 0.2rem 8.1rem -2.7rem rgba(0,0,0,0.29);
+}
+/*header.small-header:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	box-shadow: -0.2rem 0.2rem 8.1rem -2.7rem rgba(0,0,0,0.29);
+}*/
+header:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+header + * {
+	padding-top: 17rem;
+}
+header.white-bg{
+	background: #fff;
+}
+.logo{
+	font-family: NeueEinstellung;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #000;
+	float: left;
+	margin-top: 1.5rem;
+}
+.white .logo{
+	color: #fff;
+}
+.white.small-header .logo{
+	color: #000;
+}
+nav{
+	float: right;
+}
+nav ul{}
+nav ul li{
+	float: left;
+	position: relative;
+}
+nav ul li a{
+	font-family: NeueEinstellung;
+	font-weight: 700;
+	color: #000;
+	display: inline-block;
+	font-weight: 700;
+	font-size: 1.5rem;
+	padding: 1.5rem 0;
+	margin-left: 3.5rem;
+}
+.white nav > ul > li > a{
+	color: #fff;
+}
+.white.small-header nav > ul > li > a{
+	color: #000;
+}
+nav ul li a:hover{}
+nav ul li ul, .sub-menu{
+	position: absolute;
+	top: 100%;
+	right: 0;
+	background: #fff;
+	padding: 4rem 3.5rem 5rem;
+	width: 20rem;
+	display: none;
+	box-shadow: -0.2rem 0.2rem 8.1rem -2.7rem rgba(0, 0, 0, 0.29);
+}
+nav ul li:last-child ul{
+	width: 16rem;
+}
+.sub-menu{
+	width: 90rem;
+	padding: 4rem 3.2rem 5rem;
+	right: -10rem;
+}
+.menu-image{
+	height: 40rem;
+	width: 40rem;
+	display: flex;
+	float: left;
+	align-items: center;
+	justify-content: center;
+}
+.menu-image{
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+.menu-image:before,
+.menu-image:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition: all 0.3s ease-in-out;
+
+}
+.menu-image:before{
+	opacity: 0;
+	background: #000;
+	z-index: -1;
+}
+.menu-image:after{
+	z-index: -2;
+}
+
+.menu-image:hover:before{
+	opacity: 0.3;
+}
+.menu-image:hover:after{
+	transform: scale(1.1);
+}
+.menu-image:nth-child(1){
+	margin-right: 3.5rem;
+}
+.menu-image:nth-child(1):after{
+	background: url(../img/hero-girls.jpg) no-repeat scroll center / cover;
+}
+.menu-image:nth-child(2):after{
+	background: url(../img/bbeauty03.jpg) no-repeat scroll center / cover;
+}
+
+.menu-image h3{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+nav ul li ul li{
+	float: none;
+}
+nav ul li ul li a{
+	font-family: 'Radnika';
+	font-weight: 400;
+	padding: 0;
+    margin-bottom: 0.4rem;
+    border-bottom: 0.2rem solid transparent;
+    margin-left: 0;
+}
+nav ul li ul li a:hover{
+	border-bottom: 0.2rem solid #F2A28D;
+}
+
+.banner-area{
+	height: 97rem;
+	background: url(../img/craft-hero.jpg) no-repeat scroll center / cover;
+	padding: 0;
+}
+.home-area{
+	padding: 10rem 0 3rem;
+}
+.home-area h6{
+    margin: 0 0 2rem;
+}
+.home-area h1{
+	width: 68%;
+    margin: 0 0 3rem;
+}
+.home-area .full-width{
+	margin: 8rem 0 10rem;
+}
+.home-bottom{
+	text-align: center;
+}
+.home-bottom p{
+	width: 66%;
+	margin: 0 auto;
+}
+.home-bottom img{
+	margin: 11rem 0 0;
+}
+
+footer{
+	padding: 8rem 0 6rem;
+}
+footer p{
+	text-align: center;
+	font-size: 14px;
+	color: #868686;
+}
+footer p a{
+	text-decoration: underline;
+	color: #868686;
+}
+footer p a:hover{
+	text-decoration: underline;
+}
+
+.single-section h3{
+	color: #ec7a5c;
+	font-size: 3rem;
+	margin: 0 0 3.2rem;
+}
+
+.single-section {
+    padding: 10rem 0 5rem;
+}
+.single-section:not(:last-child){
+	border-bottom: 1px solid #ebebeb;
+}
+.single-info{
+	margin: 0 0 3.5rem;
+}
+
+.banner-with-text{
+	background-image: url(../img/bestselling02.jpg);
+	height: 86rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.banner-with-text h1{
+	color: #fff;
+}
+.secondery-area {
+    padding: 12.5rem 0 2rem;
+}
+.secondery-area h3{
+	margin: 0 0 1rem;
+}
+.secondery-area img {
+    margin: 2rem 0 4rem;
+}
+
+.fevor-area{
+	background: url(../img/pattern-bg.jpg) no-repeat fixed center / cover;
+	padding: 28.5rem 0 14rem;
+}
+.fevor-area.favor-bg{
+	background: url(../img/bg-pat.gif) no-repeat fixed center / cover;
+}
+.fevor-area .container{
+	background: #fff;
+}
+.fevor-inner{
+	width: 85%;
+    margin: 0 auto;
+    padding: 11rem 0 9rem;
+}
+.fevor-inner > h1{
+	margin: 0 auto 3.2rem;
+	text-align: center;
+}
+.fevor-inner > p{
+	width: 75%;
+	margin: 0 auto 4rem;
+	text-align: center;
+}
+.fevor-inner .row p {
+    font-size: 12px;
+    font-family: NeueEinstellung;
+    margin: 1rem 0 0;
+}
+
+.fevor-inner-small{
+	width: 65%;
+}
+.single-video:not(:last-child){
+    padding: 0 0 3rem;
+    border-bottom: 1px solid #ebebeb;
+    margin: 0 0 6rem;
+}
+.single-video h4{
+	margin: 3rem 0 0;
+}
